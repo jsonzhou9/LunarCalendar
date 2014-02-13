@@ -1,0 +1,216 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\nodejs\\\\node.exe',
+1 verbose cli   'F:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose node symlink F:\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\jsonzhou\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\jsonzhou\\AppData\\Local\\Temp\\npm-15760-DDT9duWl\\1392292891490-0.6678319578059018\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\tmp.tgz
+13 verbose folder .
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\jsonzhou\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile 0c40b188-91490-0-6678319578059018-tmp-tgz tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\tmp.tgz
+17 verbose lock tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\tmp.tgz C:\Users\jsonzhou\AppData\Roaming\npm-cache\0c40b188-91490-0-6678319578059018-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 0c40b188-91490-0-6678319578059018-tmp-tgz tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\tmp.tgz
+21 silly lockFile 0c40b188-91490-0-6678319578059018-tmp-tgz tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\tmp.tgz
+22 verbose tar unpack C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\tmp.tgz
+23 silly lockFile 4f84e045-91490-0-6678319578059018-package tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\package
+24 verbose lock tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\package C:\Users\jsonzhou\AppData\Roaming\npm-cache\4f84e045-91490-0-6678319578059018-package.lock
+25 silly lockFile 0c40b188-91490-0-6678319578059018-tmp-tgz tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\tmp.tgz
+26 verbose lock tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\tmp.tgz C:\Users\jsonzhou\AppData\Roaming\npm-cache\0c40b188-91490-0-6678319578059018-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+34 silly gunzTarPerm extractEntry Gruntfile.js
+35 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 420 ]
+36 silly gunzTarPerm extractEntry hl/hl2008.js
+37 silly gunzTarPerm modified mode [ 'hl/hl2008.js', 438, 420 ]
+38 silly gunzTarPerm extractEntry hl/hl2011.js
+39 silly gunzTarPerm modified mode [ 'hl/hl2011.js', 438, 420 ]
+40 silly gunzTarPerm extractEntry hl/hl2012.js
+41 silly gunzTarPerm modified mode [ 'hl/hl2012.js', 438, 420 ]
+42 silly gunzTarPerm extractEntry hl/hl2013.js
+43 silly gunzTarPerm modified mode [ 'hl/hl2013.js', 438, 420 ]
+44 silly gunzTarPerm extractEntry hl/hl2010.js
+45 silly gunzTarPerm modified mode [ 'hl/hl2010.js', 438, 420 ]
+46 silly gunzTarPerm extractEntry hl/hl2015.js
+47 silly gunzTarPerm modified mode [ 'hl/hl2015.js', 438, 420 ]
+48 silly gunzTarPerm extractEntry hl/hl2016.js
+49 silly gunzTarPerm modified mode [ 'hl/hl2016.js', 438, 420 ]
+50 silly gunzTarPerm extractEntry hl/hl2017.js
+51 silly gunzTarPerm modified mode [ 'hl/hl2017.js', 438, 420 ]
+52 silly gunzTarPerm extractEntry hl/hl2018.js
+53 silly gunzTarPerm modified mode [ 'hl/hl2018.js', 438, 420 ]
+54 silly gunzTarPerm extractEntry hl/hl2019.js
+55 silly gunzTarPerm modified mode [ 'hl/hl2019.js', 438, 420 ]
+56 silly gunzTarPerm extractEntry hl/hl2009.js
+57 silly gunzTarPerm modified mode [ 'hl/hl2009.js', 438, 420 ]
+58 silly gunzTarPerm extractEntry hl/hl2020.js
+59 silly gunzTarPerm modified mode [ 'hl/hl2020.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry hl/hl2014.js
+61 silly gunzTarPerm modified mode [ 'hl/hl2014.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry lib/LunarCalendar.js
+63 silly gunzTarPerm modified mode [ 'lib/LunarCalendar.js', 438, 420 ]
+64 silly gunzTarPerm extractEntry lib/LunarCalendar.min.js
+65 silly gunzTarPerm modified mode [ 'lib/LunarCalendar.min.js', 438, 420 ]
+66 silly gunzTarPerm extractEntry test/index.js
+67 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+68 silly lockFile 4f84e045-91490-0-6678319578059018-package tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\package
+69 silly lockFile 4f84e045-91490-0-6678319578059018-package tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\package
+70 silly lockFile 0c40b188-91490-0-6678319578059018-tmp-tgz tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\tmp.tgz
+71 silly lockFile 0c40b188-91490-0-6678319578059018-tmp-tgz tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\tmp.tgz
+72 verbose tar pack [ 'C:\\Users\\jsonzhou\\AppData\\Roaming\\npm-cache\\lunar-calendar\\0.1.0\\package.tgz',
+72 verbose tar pack   'C:\\Users\\jsonzhou\\AppData\\Local\\Temp\\npm-15760-DDT9duWl\\1392292891490-0.6678319578059018\\package' ]
+73 verbose tarball C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz
+74 verbose folder C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\package
+75 silly lockFile 4f84e045-91490-0-6678319578059018-package tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\package
+76 verbose lock tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\package C:\Users\jsonzhou\AppData\Roaming\npm-cache\4f84e045-91490-0-6678319578059018-package.lock
+77 silly lockFile bd6b7b52-lunar-calendar-0-1-0-package-tgz tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz
+78 verbose lock tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz C:\Users\jsonzhou\AppData\Roaming\npm-cache\bd6b7b52-lunar-calendar-0-1-0-package-tgz.lock
+79 silly lockFile 4f84e045-91490-0-6678319578059018-package tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\package
+80 silly lockFile 4f84e045-91490-0-6678319578059018-package tar://C:\Users\jsonzhou\AppData\Local\Temp\npm-15760-DDT9duWl\1392292891490-0.6678319578059018\package
+81 silly lockFile bd6b7b52-lunar-calendar-0-1-0-package-tgz tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz
+82 silly lockFile bd6b7b52-lunar-calendar-0-1-0-package-tgz tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz
+83 silly lockFile 661dc8e3-che-lunar-calendar-0-1-0-package C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package
+84 verbose lock C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package C:\Users\jsonzhou\AppData\Roaming\npm-cache\661dc8e3-che-lunar-calendar-0-1-0-package.lock
+85 silly lockFile 661dc8e3-che-lunar-calendar-0-1-0-package C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package
+86 silly lockFile 661dc8e3-che-lunar-calendar-0-1-0-package C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package
+87 verbose tar unpack C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz
+88 silly lockFile 1d7e89b4-che-lunar-calendar-0-1-0-package tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package
+89 verbose lock tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package C:\Users\jsonzhou\AppData\Roaming\npm-cache\1d7e89b4-che-lunar-calendar-0-1-0-package.lock
+90 silly lockFile bd6b7b52-lunar-calendar-0-1-0-package-tgz tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz
+91 verbose lock tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz C:\Users\jsonzhou\AppData\Roaming\npm-cache\bd6b7b52-lunar-calendar-0-1-0-package-tgz.lock
+92 silly gunzTarPerm modes [ '755', '644' ]
+93 silly gunzTarPerm extractEntry package.json
+94 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+95 silly gunzTarPerm extractEntry .npmignore
+96 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+97 silly gunzTarPerm extractEntry README.md
+98 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+99 silly gunzTarPerm extractEntry Gruntfile.js
+100 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 420 ]
+101 silly gunzTarPerm extractEntry hl/hl2008.js
+102 silly gunzTarPerm modified mode [ 'hl/hl2008.js', 438, 420 ]
+103 silly gunzTarPerm extractEntry hl/hl2011.js
+104 silly gunzTarPerm modified mode [ 'hl/hl2011.js', 438, 420 ]
+105 silly gunzTarPerm extractEntry hl/hl2012.js
+106 silly gunzTarPerm modified mode [ 'hl/hl2012.js', 438, 420 ]
+107 silly gunzTarPerm extractEntry hl/hl2013.js
+108 silly gunzTarPerm modified mode [ 'hl/hl2013.js', 438, 420 ]
+109 silly gunzTarPerm extractEntry hl/hl2010.js
+110 silly gunzTarPerm modified mode [ 'hl/hl2010.js', 438, 420 ]
+111 silly gunzTarPerm extractEntry hl/hl2015.js
+112 silly gunzTarPerm modified mode [ 'hl/hl2015.js', 438, 420 ]
+113 silly gunzTarPerm extractEntry hl/hl2016.js
+114 silly gunzTarPerm modified mode [ 'hl/hl2016.js', 438, 420 ]
+115 silly gunzTarPerm extractEntry hl/hl2017.js
+116 silly gunzTarPerm modified mode [ 'hl/hl2017.js', 438, 420 ]
+117 silly gunzTarPerm extractEntry hl/hl2018.js
+118 silly gunzTarPerm modified mode [ 'hl/hl2018.js', 438, 420 ]
+119 silly gunzTarPerm extractEntry hl/hl2019.js
+120 silly gunzTarPerm modified mode [ 'hl/hl2019.js', 438, 420 ]
+121 silly gunzTarPerm extractEntry hl/hl2009.js
+122 silly gunzTarPerm modified mode [ 'hl/hl2009.js', 438, 420 ]
+123 silly gunzTarPerm extractEntry hl/hl2020.js
+124 silly gunzTarPerm modified mode [ 'hl/hl2020.js', 438, 420 ]
+125 silly gunzTarPerm extractEntry hl/hl2014.js
+126 silly gunzTarPerm modified mode [ 'hl/hl2014.js', 438, 420 ]
+127 silly gunzTarPerm extractEntry lib/LunarCalendar.js
+128 silly gunzTarPerm modified mode [ 'lib/LunarCalendar.js', 438, 420 ]
+129 silly gunzTarPerm extractEntry lib/LunarCalendar.min.js
+130 silly gunzTarPerm modified mode [ 'lib/LunarCalendar.min.js', 438, 420 ]
+131 silly gunzTarPerm extractEntry test/index.js
+132 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+133 silly lockFile 1d7e89b4-che-lunar-calendar-0-1-0-package tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package
+134 silly lockFile 1d7e89b4-che-lunar-calendar-0-1-0-package tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package
+135 silly lockFile bd6b7b52-lunar-calendar-0-1-0-package-tgz tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz
+136 silly lockFile bd6b7b52-lunar-calendar-0-1-0-package-tgz tar://C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz
+137 verbose chmod C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz 644
+138 silly chown skipping for windows C:\Users\jsonzhou\AppData\Roaming\npm-cache\lunar-calendar\0.1.0\package.tgz
+139 silly lockFile 3a52ce78- .
+140 silly lockFile 3a52ce78- .
+141 silly publish { author:
+141 silly publish    { name: 'JasonZhou',
+141 silly publish      email: 'zzyss86@qq.com',
+141 silly publish      url: 'http://www.2fz1.com/' },
+141 silly publish   name: 'lunar-calendar',
+141 silly publish   description: '农历（阴历）万年历，是一款支持Node.js和浏览器端使用的全功能农历和公历日历类库。支持农历与公历之间相互转换，含有二十四节气，天干地支纪年纪月纪日，生肖属相，公历节假日及农历传统节假日信息等功能。自带2013-2014节假日安排数据，并可自行配置。带有黄历数据，可自行选择配置。支持1891-2100年。',
+141 silly publish   keywords:
+141 silly publish    [ 'chinese lunar',
+141 silly publish      'lunar',
+141 silly publish      '农历',
+141 silly publish      '阴历',
+141 silly publish      '万年历',
+141 silly publish      'LunarCalendar',
+141 silly publish      'calendar' ],
+141 silly publish   version: '0.1.0',
+141 silly publish   repository:
+141 silly publish    { type: 'git',
+141 silly publish      url: 'https://github.com/zzyss86/LunarCalendar.git' },
+141 silly publish   main: './lib/LunarCalendar.js',
+141 silly publish   engines: { node: '*' },
+141 silly publish   dependencies: {},
+141 silly publish   devDependencies:
+141 silly publish    { grunt: '0.4.2',
+141 silly publish      'grunt-contrib-uglify': '0.3.2',
+141 silly publish      mocha: '*',
+141 silly publish      'expect.js': '*' },
+141 silly publish   scripts: { test: 'make test' },
+141 silly publish   readme: '#LunarCalendar#\r\n\r\n农历（阴历）万年历，是一款支持Node.js和浏览器端使用的全功能农历和公历日历类库。支持农历与公历之间相互转换，含有二十四节气，天干地支纪年纪月纪日，生肖属相，公历节假日及农历传统节假日信息等功能。自带2013-2014节假日安排数据，并可自行配置。带有黄历数据，可自行选择配置。支持1891-2100年。使用**LunarCalendar**可快速开发一款属于自己的万年历产品，行动起来吧！\r\n\r\n##Install##\r\n\r\n1. Node.js服务器端(使用npm安装)：\r\n`npm install lunar-calendar`\r\n2. 浏览器端使用，引用脚本：\r\n`<script type="text/javascript" src="lib/LunarCalendar.min.js"></script>`\r\n\r\n\r\n##Usage##\r\n###Node.js###\r\nvar LunarCalendar = require("lunar-calendar");\r\n\r\n###浏览器###\r\n`window.LunarCalendar`是一个全局对象，可以全局作用域直接调用。\r\n\r\n##方法列表##\r\n###LunarCalendar.calendar(year,month[,fill])###\r\n通过公历获取某月农历数据\r\n\r\n####参数说明####\r\n- @param {Number} `year` 公历年 范围[1891-2100]\r\n- @param {Number} `month` 公历月 范围[1-12]\r\n- @param {Boolean} `fill`（可选） 是否填充当月日历首尾日期，设为true时，会在首尾填入上下月数据，自动补全一个7*6阵列数据。（可更美观的打造你的万年历产品）\r\n\r\n####返回数据####\r\n\t{\r\n\t    "firstDay": 5, //该月1号星期几（日历开始位置）\r\n\t    "monthDays": 28, //该月天数\r\n\t    "monthData": [ //本月所有日历数据\r\n\t        {\r\n\t            "year": 2014, //公历年\r\n\t            "month": 2, //公历月\r\n\t            "day": 1, //公历日\r\n\t            "zodiac": "蛇", //生肖属相\r\n\t            "GanZhiYear": "癸巳", //干支纪年\r\n\t            "GanZhiMonth": "乙丑", //干支纪月\r\n\t            "GanZhiDay": "癸卯", //干支纪日\r\n\t            "worktime": 2, //0无特殊安排，1工作，2放假\r\n\t            "lunarYear": 2014, //农历年\r\n\t            "lunarMonth": 1, //农历月（1-13，有闰月情况，比如当前闰9月，10表示闰9月，11表示10月）\r\n\t            "lunarDay": 2, //农历日\r\n\t            "lunarMonthName": "正月", //农历月中文名\r\n\t            "lunarDayName": "初二", //农历日中文名\r\n\t            "lunarLeapMonth": 9, //农历闰月所在月份，0表示无闰月\r\n\t\t\t\t"solarFestival": "", //公历节假日，undefined或‘劳动节’之类\r\n\t\t\t\t"lunarFestival": "", //农历节假日，undefined或‘除夕’之类\r\n\t\t\t\t"term": "" //二十四节气名，undefined或‘立春’之类\r\n\t        },\r\n\t\t\t...\r\n\t    ]\r\n\t}\r\n\r\n###LunarCalendar.solarCalendar(year,month[,fill])###\r\n获取公历某月日历数据（不带农历信息）\r\n\r\n####参数说明####\r\n- @param {Number} `year` 公历年 范围[1-~]公元后\r\n- @param {Number} `month` 公历月 范围[1-12]\r\n- @param {Boolean} `fill`（可选） 是否填充当月日历首尾日期，设为true时，会在首尾填入上下月数据，自动补全一个7*6阵列数据。（可更美观的打造你的万年历产品）\r\n\r\n####返回数据####\r\n\t{\r\n\t    "firstDay": 5, //该月1号星期几（日历开始位置）\r\n\t    "monthDays": 28, //该月天数\r\n\t    "monthData": [ //本月所有日历数据\r\n\t        {\r\n\t            "year": 2014, //公历年\r\n\t            "month": 2, //公历月\r\n\t            "day": 1 //公历日\r\n\t        },\r\n\t\t\t...\r\n\t    ]\r\n\t}\r\n\r\n###LunarCalendar.solarToLunar(year,month,day)###\r\n将公历转换为农历\r\n\r\n####参数说明####\r\n- @param {Number} `year` 公历年 范围[1891-2100]\r\n- @param {Number} `month` 公历月 范围[1-12]\r\n- @param {Number} `day` 公历日 范围[1-31]\r\n\r\n####返回数据####\r\n\t{\r\n\t    "zodiac": "蛇", //生肖属相\r\n\t    "GanZhiYear": "癸巳", //干支纪年\r\n\t    "GanZhiMonth": "乙丑", //干支纪月\r\n\t    "GanZhiDay": "癸卯", //干支纪日\r\n\t    "worktime": 2, //0无特殊安排，1工作，2放假\r\n\t    "lunarYear": 2014, //农历年\r\n\t    "lunarMonth": 1, //农历月（1-13，有闰月情况，比如当前闰9月，10表示闰9月，11表示10月）\r\n\t    "lunarDay": 2, //农历日\r\n\t    "lunarMonthName": "正月", //农历月中文名\r\n\t    "lunarDayName": "初二", //农历日中文名\r\n\t    "lunarLeapMonth": 9, //农历闰月所在月份，0表示无闰月\r\n\t\t"solarFestival": "", //公历节假日，undefined或‘劳动节’之类\r\n\t\t"lunarFestival": "", //农历节假日，undefined或‘除夕’之类\r\n\t\t"term": "" //二十四节气名，undefined或‘立春’之类\r\n\t}\r\n\r\n###LunarCalendar.lunarToSolar(year,month,day)###\r\n将农历转换为公历\r\n\r\n####参数说明####\r\n- @param {Number} `year` 农历年 范围[1891-2100]\r\n- @param {Number} `month` 农历月 范围[1-13]（有闰月情况，比如当前闰9月，10表示闰9月，11表示10月）\r\n- @param {Number} `day` 农历日 范围[1-30]\r\n\r\n####返回数据####\r\n\t{\r\n\t    "year": 2014, //公历年\r\n\t    "month": 1, //公历月\r\n\t    "day": 31 //公历日\r\n\t}\r\n\r\n###LunarCalendar.setWorktime(data)###\r\n设置某年的节假日安排信息（类库已内置2013-2014年的数据）\r\n\r\n####参数说明####\r\n- @param {Object} `data` 节假日安排信息(以年为key，可设置多年)\r\n- 0：无特殊安排，1：工作，2：放假\r\n\r\n**参数data格式如下：**\r\n\r\n\t{\r\n\t    "y2014": {\r\n\t        "d0101": 2,\r\n\t        "d0126": 1,\r\n\t        "d0131": 2,\r\n\t        "d0201": 2,\r\n\t        "d0202": 2,\r\n\t        "d0203": 2,\r\n\t        "d0204": 2,\r\n\t        "d0205": 2,\r\n\t        "d0206": 2,\r\n\t        "d0208": 1,\r\n\t        "d0405": 2,\r\n\t        "d0407": 2,\r\n\t        "d0501": 2,\r\n\t        "d0502": 2,\r\n\t        "d0503": 2,\r\n\t        "d0504": 1,\r\n\t        "d0602": 2,\r\n\t        "d0908": 2,\r\n\t        "d0928": 1,\r\n\t        "d1001": 2,\r\n\t        "d1002": 2,\r\n\t        "d1003": 2,\r\n\t        "d1004": 2,\r\n\t        "d1005": 2,\r\n\t        "d1006": 2,\r\n\t        "d1007": 2,\r\n\t        "d1011": 1\r\n\t    }\r\n\t}\r\n\r\n##黄历数据##\r\n在目录/hl/下有2008-2020年的黄历数据，用户可自行选择在自己万年历中进行添加。\r\n\r\n##其它##\r\n- 项目主页：[http://www.tuijs.com/](http://www.tuijs.com/ "项目主页")\r\n- 作者博客：[http://www.2fz1.com/](http://www.2fz1.com/ "作者博客")\r\n\r\nJasonZhou',
+141 silly publish   readmeFilename: 'README.md',
+141 silly publish   bugs: { url: 'https://github.com/zzyss86/LunarCalendar/issues' },
+141 silly publish   _id: 'lunar-calendar@0.1.0',
+141 silly publish   dist: { shasum: '9ad4d3bb7039b3d29525303a51acb32d76fb94f6' },
+141 silly publish   _from: '.' }
+142 verbose url raw lunar-calendar
+143 verbose url resolving [ 'https://registry.npmjs.org/', './lunar-calendar' ]
+144 verbose url resolved https://registry.npmjs.org/lunar-calendar
+145 info trying registry request attempt 1 at 20:01:32
+146 http PUT https://registry.npmjs.org/lunar-calendar
+147 http 409 https://registry.npmjs.org/lunar-calendar
+148 verbose url raw lunar-calendar
+149 verbose url resolving [ 'https://registry.npmjs.org/', './lunar-calendar' ]
+150 verbose url resolved https://registry.npmjs.org/lunar-calendar
+151 info trying registry request attempt 1 at 20:01:35
+152 http GET https://registry.npmjs.org/lunar-calendar
+153 http 200 https://registry.npmjs.org/lunar-calendar
+154 error publish fail Cannot publish over existing version.
+154 error publish fail Update the 'version' field in package.json and try again.
+154 error publish fail
+154 error publish fail If the previous version was published in error, see:
+154 error publish fail     npm help unpublish
+154 error publish fail
+154 error publish fail To automatically increment version numbers, see:
+154 error publish fail     npm help version
+155 error System Windows_NT 6.1.7601
+156 error command "F:\\nodejs\\\\node.exe" "F:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+157 error cwd F:\git\LunarCalendar
+158 error node -v v0.10.21
+159 error npm -v 1.3.11
+160 error code EPUBLISHCONFLICT
+161 verbose exit [ 1, true ]
