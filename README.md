@@ -161,6 +161,26 @@ var LunarCalendar = require("lunar-calendar");
 ##黄历数据##
 在目录/hl/下有2008-2020年的黄历数据，用户可自行选择在自己万年历中进行添加。
 
+##公用服务器API##
+用Node.js搭载lunar-calendar类库。
+
+- API:http://api.tuijs.com/
+- 请求类型：GET
+- 返回数据：JSON 或 JSONP
+- JSONP：支持，添加参数callback（仅支持数字，字母，下划线）
+
+1. 通过公历获取某月农历数据http://api.tuijs.com/lunarToSolar
+2. 获取公历某月日历数据（不带农历信息）http://api.tuijs.com/solarCalendar
+3. 将公历转换为农历http://api.tuijs.com/solarToLunar
+4. 将农历转换为公历http://api.tuijs.com/lunarToSolar
+
+**例如：**
+
+http://api.tuijs.com/lunarToSolar?year=2011&month=1&fill=1&callback=fn
+
+返回：
+`fn({"year":2011,"month":2,"day":16})`
+
 ##其它##
 - 项目主页：[http://www.tuijs.com/](http://www.tuijs.com/ "项目主页")
 - 作者博客：[http://www.2fz1.com/](http://www.2fz1.com/ "作者博客")
