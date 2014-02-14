@@ -178,7 +178,7 @@ var LunarCalendar = require("lunar-calendar");
 
 **例如：**
 
-http://api.tuijs.com/lunarToSolar?year=2011&month=1&fill=1&callback=fn
+http://api.tuijs.com/lunarToSolar?year=2011&month=1&day=1&callback=fn
 
 返回：
 `fn({"year":2011,"month":2,"day":16})`
