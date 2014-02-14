@@ -169,10 +169,12 @@ var LunarCalendar = require("lunar-calendar");
 - 返回数据：JSON 或 JSONP
 - JSONP：支持，添加参数callback（仅支持数字，字母，下划线）
 
-1. 通过公历获取某月农历数据http://api.tuijs.com/lunarToSolar
-2. 获取公历某月日历数据（不带农历信息）http://api.tuijs.com/solarCalendar
-3. 将公历转换为农历http://api.tuijs.com/solarToLunar
-4. 将农历转换为公历http://api.tuijs.com/lunarToSolar
+###API列表###
+
+- 通过公历获取某月农历数据 http://api.tuijs.com/calendar
+- 获取公历某月日历数据（不带农历信息）http://api.tuijs.com/solarCalendar
+- 将公历转换为农历http://api.tuijs.com/solarToLunar
+- 将农历转换为公历http://api.tuijs.com/lunarToSolar
 
 **例如：**
 
