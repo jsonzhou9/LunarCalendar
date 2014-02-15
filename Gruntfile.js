@@ -9,6 +9,13 @@ module.exports = function(grunt) {
 			build: {
 				src: 'lib/LunarCalendar.js',
 				dest: 'lib/LunarCalendar.min.js'
+			},
+			buildhl: {
+				 expand: true,
+                 cwd: 'hl/',
+                 src: '**/*.js',
+                 dest: 'hl_build/',
+                 ext: '.min.js'
 			}
 		}
 	});
@@ -18,4 +25,5 @@ module.exports = function(grunt) {
 
 	// 默认被执行的任务列表。
 	grunt.registerTask('default', ['uglify']);
+	grunt.registerTask('hl', ['uglify:buildhl']);
 };
