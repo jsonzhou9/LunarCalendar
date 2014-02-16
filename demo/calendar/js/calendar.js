@@ -378,13 +378,11 @@ var Calendar = (function(){
 	
 	function initPageElm(){
 		pageWidth = $(document).width();
-		var panelElm0 = $('.date_list').eq(0);
-		var panelElm1 = $('.date_list').eq(1);
-		panelElm0.css('width',pageWidth);
-		panelElm1.css({'width':pageWidth,'left':pageWidth});
+		$('.date_list').eq(0).css('width',pageWidth);
+		$('.date_list').eq(1).css({'width':pageWidth,'left':pageWidth});
 		if(mobile.platform=='iOS'){//iOS启用3d，同时将子元素也设置一下，防止BUG
-			setTranslate(panelElm0[0],0);
-			setTranslate(panelElm0[1],0);
+			setTranslate(document.getElementById('date_list_0'),0);
+			setTranslate(document.getElementById('date_list_1'),0);
 		}
 	};
 	
