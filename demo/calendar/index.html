@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>小推万年历，简洁美观的手机日历（HTML5版）</title>
+<meta name="description" content="小推万年历，简洁美观的手机日历">
+<meta name="Keywords" content="万年历,万年历查询,黄历,黄历查询,日历,阳历,阴历,公历,老皇历,黄道吉日,手机日历" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link href="http://cdn.tuijs.com/css/style.min.css?v=20140216" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header class="toolbar" id="toolbar">
+	<span class="icon icon_calendar"></span>
+	<h1></h1>
+    <div class="action"><a href="#" class="today">回今天</a></div>
+</header>
+
+<div class="wrapper" id="wrapper">
+	<div class="date_row date_week">
+        <div class="date_item">周日</div>
+        <div class="date_item">周一</div>
+        <div class="date_item">周二</div>
+        <div class="date_item">周三</div>
+        <div class="date_item">周四</div>
+        <div class="date_item">周五</div>
+        <div class="date_item">周六</div>
+    </div>
+    
+    <div class="slide_wrap">
+    	<div class="date_slide"> 
+            <div class="date_list" id="date_list_0">
+            </div><!--date_list-->
+            
+            <div class="date_list" id="date_list_1">
+            </div><!--date_list-->
+        </div>
+    </div>
+    
+    <div class="date_info">
+        <div class="date_lunar_info"></div>
+        <div class="date_fetv"></div>
+        <div class="date_gan_zhi"></div>
+        
+        <div class="date_hl">
+            <div class="date_hl_item">
+                <div class="hl_y circle">宜</div>
+                <span class="hl_y_content"></span>
+            </div>
+            
+            <div class="date_hl_item">
+                <div class="hl_j circle">忌</div>
+                <span class="hl_j_content"></span>
+            </div>
+        </div>
+    </div><!--date_info-->
+</div>
+<div style="overflow:hidden; width:0px; height:0px;"><img src="http://cdn.tuijs.com/upload/weixin_icon.png" /></div>
+<script type="text/javascript" src="http://cdn.tuijs.com/js/zepto.min.js"></script>
+<script type="text/javascript" src="http://cdn.tuijs.com/js/hammer.min.js"></script>
+<script type="text/javascript" src="http://cdn.tuijs.com/js/jquery.hammer.min.js"></script>
+<script type="text/javascript" src="http://cdn.tuijs.com/js/LunarCalendar.min.js?v=20140216"></script>
+<script type="text/javascript" src="http://cdn.tuijs.com/js/calendar.min.js?v=20140216"></script>
+</body>
+</html>
