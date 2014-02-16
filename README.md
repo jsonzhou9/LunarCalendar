@@ -17,6 +17,13 @@ var LunarCalendar = require("lunar-calendar");
 ###浏览器###
 `window.LunarCalendar`是一个全局对象，可以全局作用域直接调用。
 
+##DEMO产品：小推万年历（手机版）##
+访问方式：（手机扫描二维码）
+
+![二维码](http://cdn.tuijs.com/upload/1956115939.png)
+
+![小推万年历截图](http://cdn.tuijs.com/upload/calendar_photo.png)
+
 ##方法列表##
 ###LunarCalendar.calendar(year,month[,fill])###
 通过公历获取某月农历数据
